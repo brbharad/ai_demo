@@ -1,0 +1,14 @@
+README.md
+  h_b23a6a8439c0dd 1-147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "f268e9db47db74a57ca0a3d250170557826bffae",
+  "prompts": {},
+  "humans": {
+    "h_b23a6a8439c0dd": {
+      "author": "unknown"
+    }
+  }
+}

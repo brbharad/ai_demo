@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from mcp_server import add, greeting_resource, hello, hello_prompt, server_info
+from mcp_server import add, greeting_resource, healthcheck, hello, hello_prompt, server_info
 
 
 class TestHelloTool:
@@ -58,6 +58,16 @@ class TestHelloPrompt:
     def test_hello_prompt_default(self) -> None:
         result = hello_prompt()
         assert "World" in result
+
+
+class TestHealthcheck:
+    def test_healthcheck_status(self) -> None:
+        result = healthcheck()
+        assert result["status"] == "healthy"
+
+    def test_healthcheck_server_name(self) -> None:
+        result = healthcheck()
+        assert "server" in result
 
     def test_hello_prompt_custom(self) -> None:
         result = hello_prompt(name="Cisco")

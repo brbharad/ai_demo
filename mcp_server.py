@@ -37,10 +37,16 @@ def server_info() -> dict:
     return {
         "name": "Hello World MCP",
         "version": "0.1.0",
-        "tools": ["hello", "add", "server_info"],
+        "tools": ["hello", "add", "server_info", "healthcheck"],
         "resources": ["greeting://{name}"],
         "prompts": ["hello_prompt"],
     }
+
+
+@mcp.tool()
+def healthcheck() -> dict:
+    """Return a basic health status indicating the MCP server is up and running."""
+    return {"status": "healthy", "server": "Hello World MCP"}
 
 
 # ── Resources ─────────────────────────────────────────────────────────────────

@@ -1,0 +1,36 @@
+docs/architecture.md
+  97aa42ffb1a50e2e 20,23,50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "5723dae933ca61f29250ea388ab8cf042ddaecf4",
+  "prompts": {
+    "56f07096b8cdfc7b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "eed094cd-bc25-4d1e-aff6-1fd4a7beedd1",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Brijgopal Bharadwaj",
+      "messages": [],
+      "total_additions": 279,
+      "total_deletions": 6,
+      "accepted_lines": 279,
+      "overriden_lines": 0
+    },
+    "97aa42ffb1a50e2e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "313be40e-ca1d-4f0c-8ac8-c4e13bfa7d1f",
+        "model": "copilot/claude-sonnet-4.6"
+      },
+      "human_author": "Brijgopal Bharadwaj",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 3,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}

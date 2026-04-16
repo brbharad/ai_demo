@@ -1,0 +1,28 @@
+docs/architecture.md
+  3501e152cf730e5d 24,65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "04857b1c0d834da0684015f208fb2256225742c9",
+  "prompts": {
+    "3501e152cf730e5d": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f68735e2-946d-4530-b9f2-51078b08b328",
+        "model": "copilot/claude-sonnet-4.6"
+      },
+      "human_author": "Brijgopal Bharadwaj",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 1,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_d60663dcbbb607": {
+      "author": "Brijgopal Bharadwaj"
+    }
+  }
+}

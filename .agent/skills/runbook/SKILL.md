@@ -1,18 +1,12 @@
 ---
 name: runbook
 description: >-
-  Operations playbook for running, deploying, health-checking, and troubleshooting
+  Operations playbook for running, health-checking, and troubleshooting
   the ai_demo project. Use when the user asks to start the service, run a
-  smoke test, deploy, check health, respond to incidents, roll back, or debug
-  connection/server errors.
+  smoke test, check health, or debug connection/server errors.
 ---
 
 # Runbook — Operations Skill
-
-Operational reference for deployments, health checks, incident response, and
-day-to-day service management.
-
----
 
 ## Starting the Service
 

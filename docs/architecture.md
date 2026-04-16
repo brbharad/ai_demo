@@ -17,10 +17,10 @@ flowchart TD
         Main -->|"main thread"| MCP
 
         subgraph Flask ["Flask REST API · :5000"]
-            Routes["/ · /health · /hello · /items"] --> Store["In-Memory Data Store"]
+            Routes["/ · /health · /hello/<name> · /items"] --> Store["In-Memory Data Store"]
         end
 
-        subgraph MCP ["FastMCP Server · :8000"]
+        subgraph MCP ["FastMCP Server · :8000/sse"]
             Tools["Tools: hello · add · server_info"]
             Resources["Resources: greeting://"]
             Prompts["Prompts: hello_prompt"]
@@ -47,7 +47,7 @@ This makes testing simple — every test gets a fresh app instance.
 
 ### FastMCP Server (`mcp_server.py`)
 
-The MCP server exposes **tools**, **resources**, and **prompts** over SSE transport.
+The MCP server exposes **tools**, **resources**, and **prompts** over SSE transport at `http://0.0.0.0:8000/sse`.
 AI agents connect to this server to interact with the application programmatically.
 
 ```mermaid

@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "8fbc74f1baa7dc8516925cdbe4ab30b8df23e4e8",
+  "prompts": {},
+  "humans": {
+    "h_d60663dcbbb607": {
+      "author": "Brijgopal Bharadwaj"
+    }
+  }
+}

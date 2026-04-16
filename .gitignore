@@ -1,0 +1,28 @@
+# Defaults
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Project-specific
+sandbox/
+.env

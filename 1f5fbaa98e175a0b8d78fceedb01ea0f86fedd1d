@@ -1,0 +1,45 @@
+utils/__init__.py
+  56f07096b8cdfc7b 1
+AGENTS.md
+  56f07096b8cdfc7b 46-48,53-54
+main.py
+  56f07096b8cdfc7b 13-16,25-32,36
+pyproject.toml
+  56f07096b8cdfc7b 10,36
+utils/cli.py
+  56f07096b8cdfc7b 1-77
+tests/test_utils.py
+  56f07096b8cdfc7b 1-80
+tox.ini
+  56f07096b8cdfc7b 32
+tests/.coveragerc
+  56f07096b8cdfc7b 2
+utils/logger.py
+  56f07096b8cdfc7b 1-64,66-98
+  h_d60663dcbbb607 65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "1f5fbaa98e175a0b8d78fceedb01ea0f86fedd1d",
+  "prompts": {
+    "56f07096b8cdfc7b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "eed094cd-bc25-4d1e-aff6-1fd4a7beedd1",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Brijgopal Bharadwaj",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 3,
+      "accepted_lines": 277,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_d60663dcbbb607": {
+      "author": "Brijgopal Bharadwaj"
+    }
+  }
+}

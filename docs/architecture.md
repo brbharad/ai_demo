@@ -21,7 +21,7 @@ flowchart TD
         end
 
         subgraph MCP ["FastMCP Server · :8000/sse"]
-            Tools["Tools: hello · add · server_info"]
+            Tools["Tools: hello · add · server_info · healthcheck"]
             Resources["Resources: greeting://"]
             Prompts["Prompts: hello_prompt"]
         end
@@ -62,6 +62,7 @@ flowchart LR
     T --- T1["hello(name)"]
     T --- T2["add(a, b)"]
     T --- T3["server_info()"]
+    T --- T4["healthcheck()"]
     R --- R1["greeting://{name}"]
     P --- P1["hello_prompt(name)"]
 ```

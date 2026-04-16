@@ -12,9 +12,7 @@ from fastmcp import FastMCP
 
 mcp = FastMCP(
     name="Hello World MCP",
-    instructions=(
-        "A simple hello-world MCP server demonstrating tools, resources, and prompts."
-    ),
+    instructions=("A simple hello-world MCP server demonstrating tools, resources, and prompts."),
 )
 
 
@@ -60,9 +58,7 @@ def greeting_resource(name: str) -> str:
 @mcp.prompt()
 def hello_prompt(name: str = "World") -> str:
     """Generate a friendly greeting prompt."""
-    return (
-        f"Please greet {name} warmly and introduce yourself as a helpful AI assistant."
-    )
+    return f"Please greet {name} warmly and introduce yourself as a helpful AI assistant."
 
 
 if __name__ == "__main__":

@@ -23,6 +23,12 @@ venv/
 env/
 .venv/
 
+# Tox
+.tox/
+
+# Coverage
+coverage.xml
+
 # Project-specific
 sandbox/
 .env

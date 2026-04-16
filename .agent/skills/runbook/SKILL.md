@@ -2,7 +2,7 @@
 name: runbook
 description: >-
   Operations playbook for running, deploying, health-checking, and troubleshooting
-  the test-ai-docs project. Use when the user asks to start the service, run a
+  the ai_demo project. Use when the user asks to start the service, run a
   smoke test, deploy, check health, respond to incidents, roll back, or debug
   connection/server errors.
 ---

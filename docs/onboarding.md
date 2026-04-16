@@ -25,7 +25,7 @@ flowchart LR
 
 ```bash
 git clone <repo-url>
-cd test-ai-docs
+cd ai_demo
 ```
 
 ### Step 2 — Install dependencies

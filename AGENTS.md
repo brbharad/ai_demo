@@ -48,7 +48,7 @@ docs/
 
 ## Conventions
 
-- Every module starts with `from __future__ import annotations`
+- Use `uv` package manager for python dependencies
 - Type hints on every function parameter and return type
 - `snake_case` for functions/variables; `PascalCase` for classes
 - Lines ≤ 100 characters

@@ -1,0 +1,25 @@
+mcp_server.py
+  3501e152cf730e5d 40,46-49
+tests/test_mcp.py
+  3501e152cf730e5d 3,62-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "3285e1f6c5ff09d2b87c9cfdbf3b01661a25da7a",
+  "prompts": {
+    "3501e152cf730e5d": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f68735e2-946d-4530-b9f2-51078b08b328",
+        "model": "copilot/claude-sonnet-4.6"
+      },
+      "human_author": "Brijgopal Bharadwaj",
+      "messages": [],
+      "total_additions": 18,
+      "total_deletions": 2,
+      "accepted_lines": 18,
+      "overriden_lines": 0
+    }
+  }
+}

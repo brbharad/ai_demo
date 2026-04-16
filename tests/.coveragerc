@@ -1,5 +1,5 @@
 [run]
-source = app,mcp_server
+source = app,mcp_server,utils
 omit =
     */tests/*
     */__pycache__/*

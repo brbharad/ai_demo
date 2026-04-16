@@ -43,11 +43,15 @@ mcp_server.py       ← MCP tools, resources, prompts
 main.py             ← Entry point; Flask on daemon thread, MCP on main
 tox.ini             ← Tox environments: ruff-format, ruff-check, pytest
 pyproject.toml      ← Dependencies, build config, ruff rules
+utils/
+├── cli.py          ← Rich startup banner and console helpers
+└── logger.py       ← Centralized logging (Rich or plain, env-var config)
 tests/
 ├── conftest.py     ← Shared fixtures (app, client)
 ├── .coveragerc     ← Coverage source/omit/report settings
 ├── test_flask.py   ← Route tests (status codes, response bodies)
-└── test_mcp.py     ← MCP tool unit tests (call functions directly)
+├── test_mcp.py     ← MCP tool unit tests (call functions directly)
+└── test_utils.py   ← Tests for utils (logger, cli)
 docs/
 ├── architecture.md ← System design (read before architectural changes)
 └── onboarding.md   ← First-time setup guide
